@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pictures!</title>
+        <style>
+            #control {
+                background-color: rgba(200,200,200,0.5);
+                width:50vw;
+                height:40vh;
+                position:fixed;
+                left:0px;
+                right:0px;
+                top:0px;
+                bottom:0px;
+                margin:auto;
+            }
+            
+            
+            #avatar {
+                height:100px;
+                width: auto;
+                border-radius:50px;
+                position:absolute
+                left:-100px;
+                top:-100px;
+            }
+            
+            .thumbs {
+                height: 70px;
+                width:auto;
+                margin: 0px 5px 0px 5px;
+            }
+            
+            #smallImgs {
+                position:relative;
+                top:40px;
+                left:5px;
+            }
+            
+            #bigImgs {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100vw;
+            }
+            
+            .bigImgs {
+                width: 100vw;
+                height:auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="bigImgs">
+            <img class="big" />
+            <img class="big" />
+            <img class="big" />
+        </div>
+       
+        
+        <div id="control">
+            <img id="avatar" src ="https://qzprod.files.wordpress.com/2016/06/oie_transparent-28-11.png?w=641"/>
+            <div id="smallImgs">
+                <img class="thumbs" />
+                <img class="thumbs" />
+                <img class="thumbs" />
+            </div>
+        </div>
+    </body>
+</html>
